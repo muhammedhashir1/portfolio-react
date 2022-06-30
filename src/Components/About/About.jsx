@@ -30,10 +30,13 @@ const About = () => {
             </article>
             <article className="about__card">
               <GoProject className="about__icon" />
-              <h5>P44rojects</h5>
+              <h5>Projects</h5>
               <small>6</small>
             </article>
           </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ratione. Ex excepturi veritatis molestiae corporis itaque eaque! Qui voluptatibus pariatur modi facere, aut at maxime. Quibusdam sit assumenda odit consectetur!</p>
+        
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>

@@ -1,0 +1,35 @@
+const data=[
+{
+avatar: Avt1,
+name:'Tina Sin',
+review:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            aspernatur dolor iusto tempore, sapiente itaque error accusamus eum
+            voluptatem doloremque! Blanditiis quod, numquam iure odio illum
+            corporis totam doloremque assumenda.'
+},
+{
+avatar: Avt2,
+name:'loana min',
+review:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            aspernatur dolor iusto tempore, sapiente itaque error accusamus eum
+            voluptatem doloremque! Blanditiis quod, numquam iure odio illum
+            corporis totam doloremque assumenda.'
+},
+{
+avatar: Avt3,
+name:'joe doel',
+review:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            aspernatur dolor iusto tempore, sapiente itaque error accusamus eum
+            voluptatem doloremque! Blanditiis quod, numquam iure odio illum
+            corporis totam doloremque assumenda.'
+},
+{
+avatar: Avt4,
+name:'lim jose',
+review:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            aspernatur dolor iusto tempore, sapiente itaque error accusamus eum
+            voluptatem doloremque! Blanditiis quod, numquam iure odio illum
+            corporis totam doloremque assumenda.'
+},
+]
+

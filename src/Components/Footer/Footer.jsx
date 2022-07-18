@@ -17,9 +17,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FaInstagramSquare/></a>
-        <a href="https://twitter.com"><FaTwitterSquare/></a>
+        <a href="https://m.facebook.com/hashir.aachi.54" target='_blank'><FaFacebookF/></a>
+        <a href="https://www.instagram.com/muhammed_hashir___/" target='_blank'><FaInstagramSquare/></a>
+        <a href="https://twitter.com/hashiraachi1" target='_blank'><FaTwitterSquare/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy;Muhammed Hashir K K. All right reserved</small>

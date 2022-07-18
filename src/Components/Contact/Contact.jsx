@@ -33,7 +33,7 @@ const Contact = () => {
           <BsInstagram className="contact__option-icon"/>
           <h4>instagram</h4>
           <h5>muhammed_hashir___</h5>
-          <a href="https://www.instagram.com/muhammed_hashir___/ target='_blank'">Send a Message</a>
+          <a href="https://www.instagram.com/muhammed_hashir___/" target='_blank'>Send a Message</a>
         </article>
         <article className="contact__option">
           <BsWhatsapp className="contact__option-icon"/>

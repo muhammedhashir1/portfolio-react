@@ -4,6 +4,7 @@ import IMG1 from "../../Assets/netflix.jpg";
 import IMG2 from "../../Assets/portfolio.jpg";
 import IMG3 from "../../Assets/cox.JPG";
 import IMG4 from "../../Assets/bmi.JPG";
+import IMG5 from "../../Assets/steak.JPG";
 
 const data = [
   {
@@ -34,6 +35,13 @@ const data = [
     github: "https://github.com/muhammedhashir1/bmi-calculator",
     demo: "https://muhammedhashir1.github.io/bmi-calculator/",
   },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Steak-Shop (my first trail static website)",
+    github: "https://github.com/muhammedhashir1/steak-shop",
+    demo: "https://muhammedhashir1.github.io/steak-shop/",
+  }
 ];
 
 const Portfolio = () => {

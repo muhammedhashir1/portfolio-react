@@ -34,9 +34,16 @@ const About = () => {
               <small>6</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ratione. Ex excepturi veritatis molestiae corporis itaque eaque! Qui voluptatibus pariatur modi facere, aut at maxime. Quibusdam sit assumenda odit consectetur!</p>
-        
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>
+            I am a junior Front-End web developer,seeking a rewarding career in
+            web developer as a professional,where i can contribute my knoweldge
+            and skills for growth and developmet of the organization.Iam
+            specialized in React JS Developer&Web Designer.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

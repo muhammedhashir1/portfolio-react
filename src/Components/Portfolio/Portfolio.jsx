@@ -13,58 +13,58 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Netflix clone",
+    title: "Netflix clone (ReactJs)",
     github: "https://github.com/muhammedhashir1/netflix-clone",
-    demo: "https://muhammedhashir1.github.io/netflix-clone/",
+    demo: "https://muhammedhashir1.github.io/netflix-clone/"
   },
   {
     id: 2,
     image: IMG2,
-    title: "My Portfolio",
+    title: "My Portfolio (Responsive)",
     github: "https://github.com/muhammedhashir1/portfolio",
-    demo: "https://muhammedhashir1.github.io/portfolio/",
+    demo: "https://muhammedhashir1.github.io/portfolio/"
   },
   {
     id: 3,
     image: IMG3,
-    title: "Cox Gents&boys ",
+    title: "Cox Gents&boys (Responsive)",
     github: "https://github.com/muhammedhashir1/cox-static-website",
-    demo: "https://muhammedhashir1.github.io/cox-static-website/",
+    demo: "https://muhammedhashir1.github.io/cox-static-website/"
   },
   {
     id: 4,
     image: IMG4,
-    title: "BMI calculator",
+    title: "BMI calculator (Reactjs)",
     github: "https://github.com/muhammedhashir1/bmi-calculator",
-    demo: "https://muhammedhashir1.github.io/bmi-calculator/",
+    demo: "https://muhammedhashir1.github.io/bmi-calculator/"
   },
   {
     id: 5,
     image: IMG5,
-    title: "Steak-Shop (my first trail static website using html,css)",
+    title: "Steak-Shop (html,css)",
     github: "https://github.com/muhammedhashir1/steak-shop",
-    demo: "https://muhammedhashir1.github.io/steak-shop/",
+    demo: "https://muhammedhashir1.github.io/steak-shop/"
   },
   {
     id: 6,
     image: IMG6,
-    title: "OLX-Clone (Reactjs,Firebase)",
-    github: "https://github.com/muhammedhashir1/steak-shop",
-    demo: "https://muhammedhashir1.github.io/steak-shop/",
+    title: "OLX-Clone (Reactjs)",
+    github: "https://github.com/muhammedhashir1/olx",
+    demo: "https://muhammedhashir1.github.io/olx/"
   },
   {
     id: 7,
     image: IMG7,
-    title: "COX-Cart (NodeJs,Handlebars,Express,MongoDB)",
-    github: "https://github.com/muhammedhashir1/steak-shop",
-    demo: "https://muhammedhashir1.github.io/steak-shop/",
+    title: "COX-Cart(NodeJs)",
+    github: "https://github.com/muhammedhashir1/shopping-cart-cox",
+    demo: "https://muhammedhashir1.github.io/shopping-cart-cox/"
   },
   {
     id: 8,
     image: IMG8,
-    title: "React-Portfolio (ReactJs,SwiperJs)",
-    github: "https://github.com/muhammedhashir1/steak-shop",
-    demo: "https://muhammedhashir1.github.io/steak-shop/",
+    title: "React-Portfolio (ReactJs)",
+    github: "https://github.com/muhammedhashir1/portfolio-react",
+    demo: "https://muhammedhashir1.github.io/portfolio-react/"
   }
 ];
 

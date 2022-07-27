@@ -92,7 +92,7 @@ img{
 }
 
 /*================ MEDIA QUERIES (MEDIUM DEVICES) ===============*/
-@media screen and(max-width: 1024px){
+@media screen and(max-width: 992px){
     .container{
         width: var(--container-width-md);
     }

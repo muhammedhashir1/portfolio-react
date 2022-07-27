@@ -31,7 +31,7 @@ const About = () => {
             <article className="about__card">
               <GoProject className="about__icon" />
               <h5>Projects</h5>
-              <small>6</small>
+              <small>8</small>
             </article>
           </div>
           <p>

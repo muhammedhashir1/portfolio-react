@@ -5,6 +5,9 @@ import IMG2 from "../../Assets/portfolio.jpg";
 import IMG3 from "../../Assets/cox.JPG";
 import IMG4 from "../../Assets/bmi.JPG";
 import IMG5 from "../../Assets/steak.JPG";
+import IMG6 from "../../Assets/olx.clone.png";
+import IMG7 from "../../Assets/cox.cart.JPG";
+import IMG8 from "../../Assets/react-portfolio.JPG";
 
 const data = [
   {
@@ -38,7 +41,28 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Steak-Shop (my first trail static website)",
+    title: "Steak-Shop (my first trail static website using html,css)",
+    github: "https://github.com/muhammedhashir1/steak-shop",
+    demo: "https://muhammedhashir1.github.io/steak-shop/",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "OLX-Clone (Reactjs,Firebase)",
+    github: "https://github.com/muhammedhashir1/steak-shop",
+    demo: "https://muhammedhashir1.github.io/steak-shop/",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "COX-Cart (NodeJs,Handlebars,Express,MongoDB)",
+    github: "https://github.com/muhammedhashir1/steak-shop",
+    demo: "https://muhammedhashir1.github.io/steak-shop/",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "React-Portfolio (ReactJs,SwiperJs)",
     github: "https://github.com/muhammedhashir1/steak-shop",
     demo: "https://muhammedhashir1.github.io/steak-shop/",
   }

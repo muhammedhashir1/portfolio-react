@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import IMG0 from "../../Assets/ecom.PNG";
 import IMG1 from "../../Assets/netflix.jpg";
 import IMG2 from "../../Assets/olx.clone.png";
 import IMG3 from "../../Assets/bmi.JPG";
@@ -11,12 +12,20 @@ import IMG8 from "../../Assets/steak.JPG";
 
 const data = [
   {
+    id: 0,
+    image: IMG0,
+    title: "Arclif eCom",
+    description: "Reactjs,nextjs project",
+    github: "",
+    demo: "live : https://shop.arclif.com",
+  },
+  {
     id: 1,
     image: IMG1,
     title: "Netflix clone",
     description: "Bootstrapped with ReactJs",
     github: "https://github.com/muhammedhashir1/netflix-clone",
-    demo: "https://muhammedhashir1.github.io/netflix-clone/"
+    demo: "https://muhammedhashir1.github.io/netflix-clone/",
   },
   {
     id: 2,
@@ -24,7 +33,7 @@ const data = [
     title: "OLX-Clone",
     description: "Bootstrapped with ReactJs",
     github: "https://github.com/muhammedhashir1/olx",
-    demo: "https://muhammedhashir1.github.io/olx/"
+    demo: "https://muhammedhashir1.github.io/olx/",
   },
   {
     id: 3,
@@ -32,7 +41,7 @@ const data = [
     title: "BMI calculator",
     description: "Bootstrapped with Reactjs",
     github: "https://github.com/muhammedhashir1/bmi-calculator",
-    demo: "https://muhammedhashir1.github.io/bmi-calculator/"
+    demo: "https://muhammedhashir1.github.io/bmi-calculator/",
   },
   {
     id: 4,
@@ -40,7 +49,7 @@ const data = [
     title: "COX-Cart",
     description: "NodeJs,Handlebars,Express,MongoDB",
     github: "https://github.com/muhammedhashir1/shopping-cart-cox",
-    demo: "https://muhammedhashir1.github.io/shopping-cart-cox/"
+    demo: "https://muhammedhashir1.github.io/shopping-cart-cox/",
   },
   {
     id: 5,
@@ -48,7 +57,7 @@ const data = [
     title: "React-Portfolio",
     description: "Bootstrapped with Reactjs",
     github: "https://github.com/muhammedhashir1/portfolio-react",
-    demo: "https://muhammedhashir1.github.io/portfolio-react/"
+    demo: "https://muhammedhashir1.github.io/portfolio-react/",
   },
   {
     id: 6,
@@ -56,7 +65,7 @@ const data = [
     title: "Cox Gents&boys",
     description: "Responsive static website",
     github: "https://github.com/muhammedhashir1/cox-static-website",
-    demo: "https://muhammedhashir1.github.io/cox-static-website/"
+    demo: "https://muhammedhashir1.github.io/cox-static-website/",
   },
   {
     id: 7,
@@ -64,7 +73,7 @@ const data = [
     title: "My Portfolio",
     description: "Responsive static website",
     github: "https://github.com/muhammedhashir1/portfolio",
-    demo: "https://muhammedhashir1.github.io/portfolio/"
+    demo: "https://muhammedhashir1.github.io/portfolio/",
   },
   {
     id: 8,
@@ -72,8 +81,8 @@ const data = [
     title: "Steak-Shop",
     description: "static website",
     github: "https://github.com/muhammedhashir1/steak-shop",
-    demo: "https://muhammedhashir1.github.io/steak-shop/"
-  }
+    demo: "https://muhammedhashir1.github.io/steak-shop/",
+  },
 ];
 
 const Portfolio = () => {
@@ -82,35 +91,25 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
       <div className="container portfolio__container">
-        {
-          data.map(({id,image,title,description,github,demo})=>{
-            return(
-              <article key={id} className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={image} alt={title} />
-          </div>
-          <h3>{title}</h3>
-          <h5>{description}</h5>
-          <div className="portfolio__item-cta">
-            <a
-              href={github}
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href={demo}
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-            )
-          })
-        }
+        {data.map(({ id, image, title, description, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <h5>{description}</h5>
+              <div className="portfolio__item-cta">
+                <a href={github} className="btn" target="_blank">
+                  Github
+                </a>
+                <a href={demo} className="btn btn-primary" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );

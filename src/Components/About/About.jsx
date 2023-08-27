@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../Assets/about.jpg";
+import ME from "../../Assets/hashir1.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Fresher</small>
+              <small>1 year</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -31,14 +31,14 @@ const About = () => {
             <article className="about__card">
               <GoProject className="about__icon" />
               <h5>Projects</h5>
-              <small>8</small>
+              <small>10</small>
             </article>
           </div>
           <p>
-            I am a junior Front-End web developer,seeking a rewarding career in
-            web developer as a professional,where i can contribute my knoweldge
-            and skills for growth and developmet of the organization.Iam
-            specialized in React JS Developer&Web Designer.
+            I am a junior Front-End Reactjs developer,Results-driven web developer with expertise in React.js and a
+            strong background in creating modern, responsive web applications. Proven ability to collaborate effectively
+            in cross-functional teams and a commitment to staying current with emerging technologies. Passionate about
+            delivering exceptional user experiences and solving complex technical challenges..
           </p>
 
           <a href="#contact" className="btn btn-primary">
